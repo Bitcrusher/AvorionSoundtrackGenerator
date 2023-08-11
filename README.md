@@ -8,7 +8,7 @@ You will have to travel outside your home sector for the new music to kick in.
 
 
 ## Requirements
-* Windows (Linux to come)
+* Windows (Linux may come)
 * Python 3.x
 * ffmpeg
 
