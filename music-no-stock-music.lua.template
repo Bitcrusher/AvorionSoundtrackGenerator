@@ -1,0 +1,107 @@
+package.path = package.path .. ";data/scripts/lib/?.lua"
+package.path = package.path .. ";data/scripts/?.lua"
+
+-- Generated with Avorion Soundtrack Generator
+
+TrackType =
+{
+
+
+    -- modders: reserve track numbers 15 - 1000 for additional future music
+
+    {{new_tracktypes}}
+}
+
+Tracks = {}
+
+-- Custom tracks start here
+{{new_tracks}}
+
+
+TrackCollection = {}
+
+-- Happy + Neutral + Middle -> All
+function TrackCollection.All()
+    return
+    {
+        {{All}}
+    }
+end
+
+function TrackCollection.Happy()
+    return
+    {
+        {{Happy}}
+    }
+end
+
+function TrackCollection.Neutral()
+    return
+    {
+        {{Neutral}}
+    }
+end
+
+function TrackCollection.Middle()
+    return
+    {
+        {{Middle}}
+    }
+end
+
+function TrackCollection.HappyNoParticle()
+    return
+    {
+        {{HappyNoParticle}}
+    }
+end
+
+function TrackCollection.Cold()
+    return
+    {
+        {{Cold}}
+    }
+end
+
+function TrackCollection.Desolate()
+    return
+    {
+        {{Desolate}}
+    }
+end
+
+function TrackCollection.Melancholic()
+    return
+    {
+        {{Melancholic}}
+    }
+end
+
+function TrackCollection.HappyNeutral()
+    return
+    {
+        {{HappyNeutral}}
+    }
+end
+
+local function append(tbl, element)
+
+    if type(element) == "table" then
+        for _, other in pairs(element) do
+            append(tbl, other)
+        end
+    else
+        table.insert(tbl, element)
+    end
+
+end
+
+function combine(...)
+    local result = {}
+
+    for _, element in pairs({...}) do
+        append(result, element)
+    end
+
+    return result
+end
