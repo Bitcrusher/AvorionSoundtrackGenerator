@@ -15,7 +15,7 @@ You will have to travel outside your home sector for the new music to kick in.
 ### Requirements for .ogg files
 * Should be in .ogg (vorbis) format
 * The first stream in the file should be the audio track - will crash if not
-* Should have a samplerate of at least 44100
+* Should have a samplerate of at least 44100 - if lower, music will crackle
 
 
 ## Folder structure and description of each folder and mood it represents
