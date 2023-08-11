@@ -83,7 +83,7 @@ On Windows, I advise you to use Process Monitor https://learn.microsoft.com/en-u
 
 Here are my settings used:
 
-Only show/enable File System Activity
+Only show/enable File System Activity  
 ![Activity monitoring](process_monitor_2.png)
 
 You should set up the filter to only show Avorion and file paths containing .ogg
