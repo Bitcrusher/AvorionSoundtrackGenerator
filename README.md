@@ -7,7 +7,12 @@ There is the option to add your own music to the original tracks or exclude the 
 You will have to travel outside your home sector for the new music to kick in.
 
 
-## Requirements for .ogg files
+## Requirements
+* Windows (Linux to come)
+* Python 3.x
+* ffmpeg
+
+### Requirements for .ogg files
 * Should be in .ogg (vorbis) format
 * The first stream in the file should be the audio track - will crash if not
 * Should have a samplerate of at least 44100
