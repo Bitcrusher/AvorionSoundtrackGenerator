@@ -23,7 +23,7 @@ When it's first run, it will generate the PersonalAvorionSoundtrack folder and i
 ↳ data
   ↳ music
     ↳ action: Combat music - MUST be called combat0.ogg, combat1.ogg, combat2.ogg etc. - unsure if it supports above 9
-    ↳ background: music put in the background folder, will be put in the category called 'All'
+    ↳ background
       ↳ Befog: slow, thoughtful, hint of melancholy
       ↳ BehindStorms: Slow, hint of melancholy, hint of eerie
       ↳ Beyond: slow, homesick, hint of melancholy
